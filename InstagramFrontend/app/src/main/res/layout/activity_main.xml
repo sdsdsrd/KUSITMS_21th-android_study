@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="380dp"
+                    android:layout_height="380dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/sample1" />
+
+                <TextView
+                    android:id="@+id/liketext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageView"
+                    android:layout_marginTop="20dp"
+                    android:text="좋아요 100개"
+                    android:textSize="20dp" />
+
+                <CheckBox
+                    android:id="@+id/likebutton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/press_likebutton"
+                    android:button="@android:color/transparent" />
+
+                <Button
+                    android:id="@+id/bookmarkbutton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/insta_bookmark" />
+
+                <Button
+                    android:id="@+id/commentbutton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toEndOf="@+id/likebutton"
+                    android:background="@drawable/insta_comment" />
+
+                <Button
+                    android:id="@+id/msgbutton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toEndOf="@id/commentbutton"
+                    android:background="@drawable/insta_msg" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="380dp"
+                    android:layout_height="380dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/sample2" />
+
+                <CheckBox
+                    android:id="@+id/likebutton2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView2"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/press_likebutton"
+                    android:button="@android:color/transparent" />
+
+                <Button
+                    android:id="@+id/bookmarkbutton2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView2"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/insta_bookmark" />
+
+                <Button
+                    android:id="@+id/commentbutton2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@+id/likebutton2"
+                    android:background="@drawable/insta_comment" />
+
+                <Button
+                    android:id="@+id/msgbutton2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@id/commentbutton2"
+                    android:background="@drawable/insta_msg" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="380dp"
+                    android:layout_height="380dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/sample3" />
+
+                <CheckBox
+                    android:id="@+id/likebutton3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView3"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/press_likebutton"
+                    android:button="@android:color/transparent" />
+
+                <Button
+                    android:id="@+id/bookmarkbutton3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView3"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/insta_bookmark" />
+
+                <Button
+                    android:id="@+id/commentbutton3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@+id/likebutton3"
+                    android:background="@drawable/insta_comment" />
+
+                <Button
+                    android:id="@+id/msgbutton3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imageView3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@id/commentbutton3"
+                    android:background="@drawable/insta_msg" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
